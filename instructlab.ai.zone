@@ -1,6 +1,6 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2024050104 ; Serial
+                                      2024050105 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
@@ -32,3 +32,5 @@ $TTL 300
 		IN       MX        10 alt4.aspmx.l.google.com.
 
 www             IN       CNAME     redirector.osci.io.
+
+_github-pages-challenge-instructlab  IN TXT 3cc5a5cf427a59856aaad9a8a1416b
