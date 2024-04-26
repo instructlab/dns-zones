@@ -14,7 +14,6 @@ $TTL 300
 ; redirector, apex can't be a CNAME
                 IN       A         8.43.85.237
 		IN       AAAA      2620:52:3:1:5054:ff:fe64:ab5a
-                TXT      "v=spf1 -all"
+		IN       TXT      "v=spf1 -all"
 
 www             IN       CNAME     redirector.osci.io.
-; TODO add SPF
