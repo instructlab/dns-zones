@@ -1,11 +1,16 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2024050101 ; Serial
+                                      2024050102 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
                                       86400      ; Minimum
                                       )
+
+                IN      CAA     0 issue "letsencrypt.org"
+                IN      CAA     0 issuewild "\;"
+                IN      CAA     0 iodef "mailto:root@osci.io"
+
 
                 IN       NS        ns1.osci.io.
                 IN       NS        ns2.osci.io.
