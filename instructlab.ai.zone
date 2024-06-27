@@ -1,6 +1,6 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2024061000 ; Serial
+                                      2024062700 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
@@ -41,3 +41,7 @@ _github-pages-challenge-instructlab  IN TXT 3cc5a5cf427a59856aaad9a8a1416b
 google._domainkey                    IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqukNOjLym2ZJER0Yhr+0Rrf4Y3giYSxsgVeLzKnHK3XYtK6BaHp1GsCVH81MqaUIumORngl8OFWBBgb8ZbWvFmFEJjts"
 google._domainkey                    IN TXT "nWDWqwcNuDNrSiowi1QYQO1V3pcfpCKZCpOo3L3jprRP9ojndblrGmoC5Kp9Ffu7AB12+TPqE71e36CqjpMTvSxZY8jsel6YKmCG62CxleSQBg9o0Qq9c9v8dJ7rS7JoW14wR9kT8XMjcTaT/jwJqLSIev+"
 google._domainkey                    IN TXT "j7ZQIEZKuZDSyGwogEV7m3SuFNUIMFVoHrdNNGhN+pFjB+P9Cnw30V01k51l7zm3C5HRsa3rQsfg/oc3xBEk9nzvIJVOf3wIDAQAB"
+
+qa.ui   IN CNAME  qa-ui-instructlab-ai-0e3e0ef4c9c6d831e8aa6fe01f33bfc4-0000.us-south.containers.appdomain.cloud.
+
+
