@@ -1,6 +1,6 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2024062700 ; Serial
+                                      2024082000 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
@@ -34,6 +34,8 @@ $TTL 300
 _dmarc  IN       TXT       "v=DMARC1; p=none; rua=mailto:dmarc-rua@redhat.com; ruf=mailto:dmarc-ruf@redhat.com; sp=none; ri=86400"
 
 www             IN       CNAME     redirector.osci.io.
+
+blog IN CNAME instructlab.wpengine.com.
 
 _github-pages-challenge-instructlab  IN TXT 3cc5a5cf427a59856aaad9a8a1416b
 ; 2048 key are too big for 1 record
