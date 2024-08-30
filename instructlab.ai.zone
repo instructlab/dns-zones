@@ -43,5 +43,11 @@ google._domainkey                    IN TXT "nWDWqwcNuDNrSiowi1QYQO1V3pcfpCKZCpO
 google._domainkey                    IN TXT "j7ZQIEZKuZDSyGwogEV7m3SuFNUIMFVoHrdNNGhN+pFjB+P9Cnw30V01k51l7zm3C5HRsa3rQsfg/oc3xBEk9nzvIJVOf3wIDAQAB"
 
 qa.ui   IN CNAME  qa-ui-instructlab-ai-0e3e0ef4c9c6d831e8aa6fe01f33bfc4-0000.us-south.containers.appdomain.cloud.
-
-
+docs	IN		A	185.199.108.153
+	IN		A	185.199.109.153
+	IN		A	185.199.110.153
+	IN		A	185.199.111.153
+	IN       	AAAA    2606:50c0:8000::153
+	IN       	AAAA    2606:50c0:8001::153
+	IN       	AAAA    2606:50c0:8002::153
+	IN       	AAAA    2606:50c0:8003::153
