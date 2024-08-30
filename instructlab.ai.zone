@@ -1,6 +1,6 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2024062700 ; Serial
+                                      2024083000 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
