@@ -15,9 +15,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # first load the base branch
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
+      # and then the PR commit
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
       - uses: OSAS/dns4tenants-validation@main
