@@ -1,6 +1,6 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2024090301 ; Serial
+                                      2024092501 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
@@ -43,5 +43,6 @@ google._domainkey                    IN TXT "nWDWqwcNuDNrSiowi1QYQO1V3pcfpCKZCpO
 google._domainkey                    IN TXT "j7ZQIEZKuZDSyGwogEV7m3SuFNUIMFVoHrdNNGhN+pFjB+P9Cnw30V01k51l7zm3C5HRsa3rQsfg/oc3xBEk9nzvIJVOf3wIDAQAB"
 
 qa.ui   IN              CNAME  qa-ui-instructlab-ai-0e3e0ef4c9c6d831e8aa6fe01f33bfc4-0000.us-south.containers.appdomain.cloud.
+ui      IN              CNAME  ui-instructlab-ai-0e3e0ef4c9c6d831e8aa6fe01f33bfc4-0000.us-south.containers.appdomain.cloud.
 docs	IN		CNAME  instructlab.github.io.
 blog    IN              CNAME  instructlab.wpenginepowered.com.
