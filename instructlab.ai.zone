@@ -24,6 +24,8 @@ $TTL 300
 		IN       TXT       "google-site-verification=qKmAnKIOHfHazRnEZu9YsrpwL_XCGqWdoiIPxGB1cy4"
 
 		IN       TXT       "v=spf1 include:_spf.google.com ~all"
+; research.instrcuctlab.ai -> https://red-hat-ai-innovation-team.github.io
+_github-pages-challenge-jjasghar.research	IN	 TXT	   b80eb2bd1a6eb855c0b615a1dd0dff
 
 		IN       MX        1 aspmx.l.google.com.
 		IN       MX        5 alt1.aspmx.l.google.com.
