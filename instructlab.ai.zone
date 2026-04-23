@@ -1,6 +1,6 @@
 $TTL 300
 @       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2025020101 ; Serial
+                                      2026042100 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
@@ -24,8 +24,6 @@ $TTL 300
 		IN       TXT       "google-site-verification=qKmAnKIOHfHazRnEZu9YsrpwL_XCGqWdoiIPxGB1cy4"
 
 		IN       TXT       "v=spf1 include:_spf.google.com ~all"
-; research.instrcuctlab.ai -> https://red-hat-ai-innovation-team.github.io
-_github-pages-challenge-jjasghar.research	IN	 TXT	   b80eb2bd1a6eb855c0b615a1dd0dff
 
 		IN       MX        1 aspmx.l.google.com.
 		IN       MX        5 alt1.aspmx.l.google.com.
@@ -35,9 +33,13 @@ _github-pages-challenge-jjasghar.research	IN	 TXT	   b80eb2bd1a6eb855c0b615a1dd0
 
 _dmarc  IN       TXT       "v=DMARC1; p=none; rua=mailto:dmarc-rua@redhat.com; ruf=mailto:dmarc-ruf@redhat.com; sp=none; ri=86400"
 
+
 www             IN       CNAME     redirector.osci.io.
 
 _github-pages-challenge-instructlab  IN TXT 3cc5a5cf427a59856aaad9a8a1416b
+; research.instrcuctlab.ai -> https://red-hat-ai-innovation-team.github.io
+_github-pages-challenge-jjasghar.research	IN	 TXT	   b80eb2bd1a6eb855c0b615a1dd0dff
+
 ; 2048 key are too big for 1 record
 ; see https://stackoverflow.com/questions/34110175/dkim-on-multiple-lines
 google._domainkey                    IN TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqukNOjLym2ZJER0Yhr+0Rrf4Y3giYSxsgVeLzKnHK3XYtK6BaHp1GsCVH81MqaUIumORngl8OFWBBgb8ZbWvFmFEJjts"
