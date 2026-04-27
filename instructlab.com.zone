@@ -1,6 +1,6 @@
 $TTL 300
-@       IN      SOA     ns1.osci.io. hostmaster.osci.io.  (
-                                      2026042100 ; Serial
+@       IN      SOA     ns11.osci.io. hostmaster.osci.io.  (
+                                      2026042700 ; Serial
                                       3600       ; Refresh
                                       1800       ; Retry
                                       604800     ; Expire
@@ -12,8 +12,8 @@ $TTL 300
                 IN      CAA     0 iodef "mailto:root@osci.io"
 
 
-                IN       NS        ns1.osci.io.
-                IN       NS        ns2.osci.io.
+                IN       NS        ns11.osci.io.
+                IN       NS        ns22.osci.io.
                 IN       NS        ns3.osci.io.
 
 ; redirector, apex can't be a CNAME
